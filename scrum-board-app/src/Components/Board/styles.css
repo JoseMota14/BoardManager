@@ -1,0 +1,31 @@
+.container {
+  background-color: var(--background-main);
+  height: 94vh;
+  margin: 1%;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.container > h1 {
+  transition: all 1s ease-in-out;
+  color: var(--text-color-grid);
+}
+
+.container:hover > h1 {
+  color: var(--green-light);
+}
+
+.container:hover {
+  background-color: var(--background-hover);
+}
+
+.container > h1 {
+  text-align: center;
+}
+
+.columns_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

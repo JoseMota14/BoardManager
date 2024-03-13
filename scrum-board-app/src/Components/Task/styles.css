@@ -1,0 +1,8 @@
+.task {
+  border-radius: 10px;
+  list-style-type: none;
+  background-color: var(--small-grid);
+  color: var(--text-color-grid);
+  margin-bottom: 4px;
+  padding: 10px;
+}

@@ -1,0 +1,11 @@
+.app {
+}
+
+:root {
+  --background-main: #121212;
+  --background-hover: #404040;
+  --main-grid: #727272;
+  --text-color-grid: #b3b3b3;
+  --small-grid: #404040;
+  --green-light: #1db954;
+}
