@@ -7,6 +7,9 @@
   width: 300px;
   height: 400px;
   background-color: var(--main-grid);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -21,4 +24,8 @@
 
 .wrapper h4 {
   margin-right: auto; /* Push the icon to the right */
+}
+
+.button_wrapper {
+  margin-top: auto;
 }
